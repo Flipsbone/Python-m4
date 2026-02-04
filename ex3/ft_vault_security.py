@@ -9,7 +9,7 @@ It ensures secure handling of sensitive information.
 def main() -> None:
     print("=== CYBER ARCHIVES - VAULT SECURITY SYSTEM ===\n")
     print("Initiating secure vault access...")
-    with open("../classified_data.txt", "r") as file:
+    with open("classified_data.txt", "r") as file:
         print("Vault connection established with failsafe protocols\n")
         print("SECURE EXTRACTION:")
         print(file.read())
