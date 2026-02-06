@@ -15,7 +15,7 @@ def access_archive(file_path: str, status: str) -> None:
     print(f"{status}: Attempting access to '{file_path}'...")
     try:
         with open(file_path, 'r') as file:
-            print(f"SUCCESS: Archive recovered - {file.read().strip()}")
+            print(f"SUCCESS: Archive recovered - {file.read()}", end="")
             print("STATUS: Normal operations resumed\n")
     except FileNotFoundError:
         print("RESPONSE: Archive not found in storage matrix")
