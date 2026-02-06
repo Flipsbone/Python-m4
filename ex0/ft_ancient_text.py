@@ -19,7 +19,7 @@ def main() -> None:
         print("RECOVERED DATA:")
         print(file.read())
     except FileNotFoundError:
-        print("ERROR:Storage vault not found.")
+        print("ERROR:Storage vault not found. Run data generator first.")
     finally:
         if file is not None:
             file.close()

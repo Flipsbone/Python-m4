@@ -29,9 +29,9 @@ def access_archive(file_path: str, status: str) -> None:
 
 def main() -> None:
     print("=== CYBER ARCHIVES - CRISIS RESPONSE SYSTEM ===\n")
-    access_archive("../lost_archive.txt", "CRISIS ALERT")
-    access_archive("../classified_vault.txt", "CRISIS ALERT")
-    access_archive("../standard_archive.txt", "ROUTINE ACCESS")
+    access_archive("lost_archive.txt", "CRISIS ALERT")
+    access_archive("classified_vault.txt", "CRISIS ALERT")
+    access_archive("standard_archive.txt", "ROUTINE ACCESS")
     print("All crisis scenarios handled successfully. Archives secure.")
 
 

@@ -14,7 +14,7 @@ def main() -> None:
         print("SECURE EXTRACTION:")
         print(file.read())
         print()
-    with open("../security_protocols.txt", "w") as file_w:
+    with open("security_protocols.txt", "w") as file_w:
         print("SECURE PRESERVATION:")
         entry_1 = "[CLASSIFIED] New security protocols archived\n"
         file_w.write(entry_1)
